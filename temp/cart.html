@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome To Shopping Online</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/grid.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/owl.theme.css">
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src='js/jquery.elevatezoom.js'></script>
+<script src="js/photo-gallery.js" type="text/javascript"></script>
+<script>
+$(function(){
+ var zoomConfing = {
+    zoomType: "inner",
+	cursor: "crosshair",
+	zoomWindowFadeIn: 500,
+	zoomWindowFadeOut: 750
+   };
+	//Create
+	$('.zoom_01').elevateZoom(zoomConfing);
+});
+</script>
+<script src="js/custome.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Raleway:400,500,600' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<header class="header-main">
+  <div class="header-top">
+    <div class="container">
+      <ul class="header-left-link">
+        <li><a href="login.html"><img alt="" src="image/icon-1.png"> <span>Login</span></a></li>
+        <li><a href="login.html"><img alt="" src="image/icon-2.png"> <span>Not a Member ? <span class="coloryellow">Sign Up</span></span></a></li>
+      </ul>
+      <ul class="header-right-link">
+        <li><a href="#">My Account</a><span>|</span></li>
+        <li><a href="#">Compare</a><span>|</span></li>
+        <li><a href="#">Wishlist</a><span>|</span></li>
+        <li><a href="#">Delivery</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="header-middle">
+    <div class="container">
+      <div class="logo"><a href="#"><img src="image/logo.jpg" /></a></div>
+      <div class="header-search">
+        <input type="text" placeholder="What are you looking?" class="form-control">
+        <button><i class="fa fa-search"></i></button>
+      </div>
+      <div class="header-cart">
+        <div class="cart-wrapper"> <a class="btn btn-theme-transparent" href="wishlist.html"><i class="fa fa-heart"></i></a> <a class="btn btn-theme-transparent" href="compare-products.html"><i class="fa fa-exchange"></i></a> <a data-target="#popup-cart" data-toggle="modal" class="btn btn-theme-transparent" href="#"><i class="fa fa-shopping-cart"></i> <span class="">10 Item</span> </a> </div>
+      </div>
+    </div>
+  </div>
+  <div class="width_full menu-border">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar">
+          <ul class="nav navbar-nav">
+            <li><span class="menu-line"><img src="image/menu-line.jpg" /></span><a href="#">Home</a></li>
+            <li><span class="menu-line"><img src="image/menu-line.jpg" /></span><a href="#">Shop</a></li>
+            <li><span class="menu-line"><img src="image/menu-line.jpg" /></span><a href="#">Blog</a></li>
+            <li class="dropdown"> <span class="menu-line"><img src="image/menu-line.jpg" /></span><a aria-expanded="false" aria-haspopup="true" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">Portfolio <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider" role="separator"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            <li><span class="menu-line"><img src="image/menu-line.jpg" /></span><a href="#">Men</a></li>
+            <li><span class="menu-line"><img src="image/menu-line.jpg" /></span><a href="#">Women</a></li>
+            <li><span class="menu-line"><img src="image/menu-line.jpg" /></span><a href="#">Kids</a></li>
+          </ul>
+        </div>
+        <!--/.nav-collapse --> 
+      </div>
+      <!--/.container-fluid --> 
+    </nav>
+  </div>
+</header>
+<section class="inner-page-main">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <ol class="breadcrumb">
+          <li><a href="#">Home</a></li>
+          <li class="active">Shopping Cart</li>
+        </ol>
+      </div>
+      <div class="clear"></div>
+      
+      <div class="col-md-12">
+        <h2 class="product-title">Shopping Cart</h2>
+        
+        
+        <div class="width_full mrgn_20t">
+        <div  class="table-responsive">
+    <table class="table table-hover table-border">
+      <thead>
+        <tr>
+          <th style="width:50px;"></th>
+          <th></th>
+          <th>Product Name</th>
+          <th>Qty</th>
+          <th>Price</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+         <td class="valign-center total-amount text-center"><a href="#"><i class="fa fa-times"></i></a></td>
+          <td class="valign-center" ><div class="cart-product-img"><img src="image/1.jpg"></div></td>
+          <td class="valign-center" >3D Blu-ray Disc™ Player (BD-D7500)</td>
+          <td valign="middle" class="valign-center"><input type="text" placeholder="1" id="usr" class="form-control quantity-input" style="width:50px;"></td>
+          <td class="valign-center total-amount">$120.00</td>
+          
+        </tr>
+        
+        <tr>
+          <td class="valign-center total-amount text-center"><a href="#"><i class="fa fa-times"></i></a></td>
+          <td class="valign-center" ><div class="cart-product-img"><img src="image/2.jpg"></div></td>
+          <td class="valign-center" >There are many variations of passages </td>
+          <td valign="middle" class="valign-center"><input type="text" placeholder="1" id="usr" class="form-control quantity-input" style="width:50px;"></td>
+          <td class="valign-center total-amount">$50.00</td>
+        </tr>
+        
+        <tr>
+          <td class="valign-center total-amount text-center"><a href="#"><i class="fa fa-times"></i></a></td>
+          <td class="valign-center" ><div class="cart-product-img"><img src="image/3.jpg"></div></td>
+          <td class="valign-center" >Lorem ipsum dolor sit amet, conse adipiscing</td>
+          <td valign="middle" class="valign-center"><input type="text" placeholder="1" id="usr" class="form-control quantity-input" style="width:50px;"></td>
+          <td class="valign-center total-amount">$54.00</td>
+        </tr>
+        
+        <tr>
+          <td class="valign-center total-amount text-center"><a href="#"><i class="fa fa-times"></i></a></td>
+          <td class="valign-center" ><div class="cart-product-img"><img src="image/4.jpg"></div></td>
+          <td class="valign-center" >3D Blu-ray Disc™ Player (BD-D7500)</td>
+          <td valign="middle" class="valign-center"><input type="text" placeholder="1" id="usr" class="form-control quantity-input" style="width:50px;"></td>
+          <td class="valign-center total-amount">$224.00</td>
+        </tr>
+        
+        <tr class="total-amount-footer ">
+          <td colspan="4" class="valign-center text-right valign-center">
+         Shipping Charge :
+          </td>
+          <td class="valign-center total-amount freecharge-text">FREE</td>
+        </tr>
+        
+        <tr class="total-amount-footer valign-center" style="border-top:solid 2px #fff;">
+          <td colspan="4" class="valign-center text-right">
+          <div class="pull-left">
+          <form class="form-inline">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Apply Coupon Code">
+          </div>
+          <button type="submit" class="btn btn-success">Apply</button>
+        </form>
+          </div>
+          
+         <span class="mrgn_5t" style="display:inline-block;">Total Cost :</span>
+          </td>
+          <td class="valign-center total-amount freecharge-text">$560.00</td>
+        </tr>
+        
+        
+      </tbody>
+    </table>
+  </div>
+  
+  <div class="width_full text-right">
+   <a href="#" class="proceed-checkout-btn continue-shopping-btn">Continue Shopping</a>
+  <a href="#" class="proceed-checkout-btn">Proceed to Checkout</a>
+  </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <h2 class="footer-my-account-heading">My Account</h2>
+        <ul class="footer-link">
+          <li><a href="#"><i class="fa fa-angle-right"></i>My Account</a></li>
+          <li><a href="#"><i class="fa fa-angle-right"></i>Order History</a></li>
+          <li><a href="#"><i class="fa fa-angle-right"></i>My Wishlist</a></li>
+          <li><a href="#"><i class="fa fa-angle-right"></i>Change Password</a></li>
+          <li><a href="#"><i class="fa fa-angle-right"></i>Create Account</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h2 class="footer-my-account-heading">Informations</h2>
+        <ul class="footer-link">
+          <li><a href="#"><i class="fa fa-angle-right"></i>Shipping Info</a></li>
+          <li><a href="#"><i class="fa fa-angle-right"></i>Privacy Policy</a></li>
+          <li><a href="#"><i class="fa fa-angle-right"></i>Conditions of Use</a></li>
+          <li><a href="#"><i class="fa fa-angle-right"></i>Site Map</a></li>
+          <li><a href="#"><i class="fa fa-angle-right"></i>Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h2 class="footer-my-account-heading">Customer Care</h2>
+        <ul class="footer-link">
+          <li><a href="#"><i class="fa fa-angle-right"></i>New Products</a></li>
+          <li><a href="#"><i class="fa fa-angle-right"></i>Featured Products</a></li>
+          <li><a href="#"><i class="fa fa-angle-right"></i>Specials</a></li>
+          <li><a href="#"><i class="fa fa-angle-right"></i>All Products</a></li>
+          <li><a href="#"><i class="fa fa-angle-right"></i>Brands</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h2 class="footer-my-account-heading">Newsletter</h2>
+        <div class="footer-newlatter">
+          <p>Join the Community to be Updated Community Firstly Newsletter</p>
+          <div class="block-content">
+            <div class="input-box">
+              <input type="email" class="form-control" id="email" placeholder="Enter your email address ...">
+              <button class="button" title="Subscribe" type="submit"></button>
+            </div>
+            <div class="width_full footer-social-icon"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cpoyright-footer">
+    <p>© JEWELRY 2015. All Rights Reserved.</p>
+  </div>
+</footer>
+</body>
+</html>

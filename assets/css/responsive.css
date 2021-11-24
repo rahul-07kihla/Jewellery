@@ -1,0 +1,64 @@
+@media screen and (min-width : 0px) and (max-width : 767px)
+{
+	
+	.header-left-link li a span{display:none;}
+	.header-search{position:relative; top:auto; left:auto; float:left; width:100%; margin-top:10px;}
+	.logo{ float:left;}
+	.item-stock-line{display:none;}
+	.owl-theme .owl-controls .owl-buttons .owl-next{right:0px;}
+	.owl-theme .owl-controls .owl-buttons .owl-prev{left:0px;}
+	.necklaces-box{width:100%;}
+	.view{width:100%;}
+}
+
+@media screen and (min-width : 0px) and (max-width : 480px)
+{
+	.header-right-link li a{font-size:12px; padding:0 7px;}
+	.header-left-link li{margin-right:0px;}
+	.header-cart{top:10px;}
+	.cart-wrapper .btn{padding:6px 7px !important;}
+	.logo img{max-width:50%;}
+	.carousel-caption h1{font-size:16px; margin-top:10px;}
+	.carousel-caption{padding-top:5px !important; padding-bottom:5px !important; top:0px !important;}
+	.carousel-caption h2{font-size:20px; margin-top:10px;}
+	.carousel-caption p{display:none !important;}
+	.shopnow-btn{font-size:13px; padding:4px 26px;}
+	.carousel-indicators{display:none;}
+	
+}
+
+@media screen and (min-width : 481px) and (max-width : 768px)
+{
+.carousel-caption{padding-top:5px !important; padding-bottom:5px !important; top:10% !important; left:0px !important;}
+.carousel-caption h1{font-size:20px;}
+.carousel-caption h2{font-size:40px; margin-top:10px;}
+.shopnow-btn{padding: 5px 20px; font-size:16px;}
+}
+
+@media screen and (min-width : 769px) and (max-width : 1100px)
+{
+.carousel-caption{padding-top:5px !important; padding-bottom:5px !important; top:15% !important; left:5% !important;}
+.carousel-caption h1{font-size:20px;}
+.carousel-caption h2{font-size:40px; margin-top:10px;}
+.shopnow-btn{padding: 5px 20px; font-size:16px;}
+}
+@media screen and (min-width : 1100px) and (max-width : 1280px)
+{
+.carousel-caption{top:15% !important;}
+}
+
+@media screen and (min-width : 768px) and (max-width :990px)
+{
+	
+	.menu-border .navbar-nav > li > a{padding:19px 22px !important;}
+}
+
+
+@media screen and (min-width : 640px) and (max-width : 900px)
+{
+.offers-box-width{width:50%; }	
+}
+@media screen and (min-width : 0px) and (max-width : 639px)
+{
+.offers-box-width{width:100%; }	
+}

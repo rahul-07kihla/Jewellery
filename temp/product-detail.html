@@ -1,0 +1,388 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome To Shopping Online</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/grid.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/owl.theme.css">
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src='js/jquery.elevatezoom.js'></script>
+<script src="js/photo-gallery.js" type="text/javascript"></script>
+<script>
+$(function(){
+ var zoomConfing = {
+    zoomType: "inner",
+	cursor: "crosshair",
+	zoomWindowFadeIn: 500,
+	zoomWindowFadeOut: 750
+   };
+	//Create
+	$('.zoom_01').elevateZoom(zoomConfing);
+});
+</script>
+<script src="js/custome.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Raleway:400,500,600' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<header class="header-main">
+  <div class="header-top">
+    <div class="container">
+      <ul class="header-left-link">
+        <li><a href="login.html"><img alt="" src="image/icon-1.png"> <span>Login</span></a></li>
+        <li><a href="login.html"><img alt="" src="image/icon-2.png"> <span>Not a Member ? <span class="coloryellow">Sign Up</span></span></a></li>
+      </ul>
+      <ul class="header-right-link">
+        <li><a href="#">My Account</a><span>|</span></li>
+        <li><a href="#">Compare</a><span>|</span></li>
+        <li><a href="#">Wishlist</a><span>|</span></li>
+        <li><a href="#">Delivery</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="header-middle">
+    <div class="container">
+      <div class="logo"><a href="#"><img src="image/logo.jpg" /></a></div>
+      <div class="header-search">
+        <input type="text" placeholder="What are you looking?" class="form-control">
+        <button><i class="fa fa-search"></i></button>
+      </div>
+      <div class="header-cart">
+        <div class="cart-wrapper"> <a class="btn btn-theme-transparent" href="wishlist.html"><i class="fa fa-heart"></i></a> <a class="btn btn-theme-transparent" href="compare-products.html"><i class="fa fa-exchange"></i></a> <a data-target="#popup-cart" data-toggle="modal" class="btn btn-theme-transparent" href="#"><i class="fa fa-shopping-cart"></i> <span class="">10 Item</span> </a> </div>
+      </div>
+    </div>
+  </div>
+  <div class="width_full menu-border">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar">
+          <ul class="nav navbar-nav">
+            <li><span class="menu-line"><img src="image/menu-line.jpg" /></span><a href="#">Home</a></li>
+            <li><span class="menu-line"><img src="image/menu-line.jpg" /></span><a href="#">Shop</a></li>
+            <li><span class="menu-line"><img src="image/menu-line.jpg" /></span><a href="#">Blog</a></li>
+            <li class="dropdown"> <span class="menu-line"><img src="image/menu-line.jpg" /></span><a aria-expanded="false" aria-haspopup="true" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">Portfolio <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider" role="separator"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            <li><span class="menu-line"><img src="image/menu-line.jpg" /></span><a href="#">Men</a></li>
+            <li><span class="menu-line"><img src="image/menu-line.jpg" /></span><a href="#">Women</a></li>
+            <li><span class="menu-line"><img src="image/menu-line.jpg" /></span><a href="#">Kids</a></li>
+          </ul>
+        </div>
+        <!--/.nav-collapse --> 
+      </div>
+      <!--/.container-fluid --> 
+    </nav>
+  </div>
+</header>
+<section class="inner-page-main">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <ol class="breadcrumb">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Jewelry</a></li>
+          <li class="active">Ring</li>
+        </ol>
+      </div>
+      <div class="clear"></div>
+      <div class="col-md-4">
+        <div id="gallery1" class="photo-gallery">
+          <div class="current-photo"> <img class="zoom_01"> </div>
+          <div class="photo-list">
+            <ul>
+              <li data-src="image/product-detail-1.jpg"> <img src="image/product-detail-1.jpg" title="" alt="" /> </li>
+              <li data-src="image/product-detail-2.jpg"> <img src="image/product-detail-2.jpg" title="" alt="" /> </li>
+              <li data-src="image/product-detail-3.jpg"> <img src="image/product-detail-3.jpg" title="" alt="" /> </li>
+              <li data-src="image/product-detail-4.jpg"> <img src="image/product-detail-4.jpg" title="" alt="" /> </li>
+              <li data-src="image/product-detail-5.jpg"> <img src="image/product-detail-5.jpg" title="" alt="" /> </li>
+              <li data-src="image/product-detail-6.jpg"> <img src="image/product-detail-6.jpg" title="" alt="" /> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <h2 class="product-title">Silver Diamond Ring</h2>
+        <div class="product-price-text"><span class="normalprice">$150</span>$121.00<span class="productPriceDiscount">20% off</span></div>
+        <div class="width_full mrgn_20b mrgn_20t">
+          <hr class="hr-line">
+          <p class="pd_10t">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante. Mauris eleifend, quam a vulputate dictum, massa quam dapibus leo, eget vulputate orci purus ut lorem. In fringilla mi in ligula. Pellentesque aliquam quam vel dolor. every item is a vital part of a woman's wardrobe.<br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante. Mauris eleifend, quam a vulputate dictum, massa quam dapibus leo, eget vulputate orci purus ut lorem. In fringilla mi in ligula. Pellentesque aliquam quam vel dolor. every item is a vital part of a woman's wardrobe.
+</p>
+          <hr class="hr-line">
+        </div>
+        <div class="width_full mrgn_20b">
+          <div class="col-sm-3 mrgn_10b select-color">
+            <label class="lable-widht">Color</label>
+            <span class="color-blue"></span> <span class="color-red"></span> <span class="color-yellow"></span> <span class="color-green"></span> </div>
+          <div class="col-sm-3 mrgn_10b">
+            <div class="width_full">
+              <label for="sel1" class="lable-widht">Select Size:</label>
+              <div class="select-size-select">
+                <select class="form-control" id="">
+                  <option>Please Select</option>
+                  <option>S</option>
+                  <option>M</option>
+                  <option>L</option>
+                  <option>XL</option>
+                  <option>XXL</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 mrgn_10b">
+            <div class="width_full">
+              <label for="sel1" class="lable-widht">Quantity</label>
+              <div class="">
+                <input type="text" class="form-control quantity-input" id="usr" placeholder="1">
+              </div>
+            </div>
+          </div>
+          
+          <hr class="hr-line">
+          
+          <div class="width_full mrgn_25t">
+          
+          <div class="col-sm-4"><span class="free-shipping-text"><i class="fa fa-check-square"></i> Free Shipping</span></div>
+          <div class="col-sm-4"><span class="free-shipping-text"><i class="fa fa-check-square"></i> COD Available</span></div>
+          <div class="col-sm-4"><span class="free-shipping-text"><i class="fa fa-check-square"></i> 10 Day Repalce</span></div>
+                    
+          </div>
+          
+          <div class="width_full mrgn_35t">
+         <div class="col-sm-12">
+         <a class="product-box-cart-btn" href="#"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+         <a href="#" class="add-wishlist-btn"><i class="fa fa-star"></i>Add to Wishlist</a><span class="add-wishlist-span">|</span>
+         <a href="#" class="add-wishlist-btn"><i class="fa fa-compress"></i>Add to Compare</a>
+         </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+    <div class="clear"></div>
+    
+    <div class="width_full tabs-new mrgn_50t">
+    <div class="row">
+    <div class="col-sm-12">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Description</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Specification</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">
+    
+    <h3 class="description-heading">Stop your co-workers in their tracks with</h3>
+     <p>Stop your co-workers in their tracks with the stunning new 30-inch diagonal HP LP3065 Flat Panel Monitor. This flagship monitor features best-in-class performance and presentation features on a huge wide-aspect screen while letting you work as comfortably as possible - you might even forget you're at the office</p>
+<br />
+
+<p>Stop your co-workers in their tracks with the stunning new 30-inch diagonal HP LP3065 Flat Panel Monitor. This flagship monitor features best-in-class performance and presentation features on a huge wide-aspect screen while letting you work as comfortably as possible - you might even forget you're at the office Stop your co-workers in their tracks with the stunning new 30-inch diagonal HP LP3065 Flat Panel Monitor. This flagship monitor features best-in-class performance and presentation features on a huge wide-aspect screen while letting you work as comfortably as possible - you might even forget you're at the office Stop your co-workers in their tracks with the stunning new 30-inch diagonal HP LP3065 Flat Panel Monitor. This flagship monitor features best-in-class performance and presentation features on a huge wide-aspect screen while letting you work as comfortably as possible - you might even forget you're at the office</p>
+
+<ul class="description-ul">
+<li>Stop your co-workers in their tracks with the</li>
+<li>presentation features on a huge wide-aspect screen while </li>
+<li>This flagship monitor features best-in-class</li>
+<li>features best-in-class performance and presentation features on a huge wide-aspect screen</li>
+</ul>
+
+
+    </div>
+    <div role="tabpanel" class="tab-pane" id="profile">
+    <div  class="table-responsive">
+    <table class="table table-bordered ">
+      
+        <tr>
+          <th scope="row" class="specification-left">Locket Type</th>
+          <td>Ocean blue Austrian Crystal Necklace Set Combo with Crystal earrings and elegant crystal bracelet </td>
+        </tr>
+        <tr>
+          <th scope="row" class="specification-left">Locket Type</th>
+          <td>Alloy</td>
+        </tr>
+        <tr>
+          <th scope="row" class="specification-left">Brand</th>
+          <td>VK Jewels</td>
+        </tr>
+        <tr>
+          <th scope="row" class="specification-left">Brand</th>
+          <td>VK Jewels</td>
+        </tr>
+        <tr>
+          <th scope="row" class="specification-left">Brand</th>
+          <td>VK Jewels</td>
+        </tr>
+        <tr>
+          <th scope="row" class="specification-left">Weight</th>
+          <td>1G</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+    </div>
+  </div>
+
+</div>
+    </div>
+    </div>
+    
+    <div class="width_full mrgn_30t">
+    <div class="width_full text-center">
+    <h2 class="product-section-h2">Releted Product</h2>
+  </div>
+  
+  <div class="width_full">
+    <div id="owl-example" class="owl-carousel">
+      
+      <div class="product-box-padding">
+        <div class="product-box-main">
+          <div class="product-box-img-part">
+            <img src="image/1.jpg" />
+            <div class="background-overlay"><a href="#" class="quick_view_btn">Quick View</a></div>
+          </div>
+          <div class="product-box-detail-part">
+            <div class="width_full text-center"><a class="product-box-title" href="#">Beautiful Silver Earri</a></div>
+            <h3 class="product-box-price">$39.00<span>$45.00</span></h3>
+            <span class="width_full text-center"><a href="#" class="product-box-cart-btn"><i class="fa fa-shopping-cart"></i>Add to cart</a></span> </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="product-box-padding">
+        <div class="product-box-main">
+          <div class="product-box-img-part">
+            <img src="image/2.jpg" />
+            <div class="background-overlay"><a href="#" class="quick_view_btn">Quick View</a></div>
+          </div>
+          <div class="product-box-detail-part">
+            <div class="width_full text-center"><a class="product-box-title" href="#">Beautiful Silver Earri</a></div>
+            <h3 class="product-box-price">$39.00<span>$45.00</span></h3>
+            <span class="width_full text-center"><a href="#" class="product-box-cart-btn"><i class="fa fa-shopping-cart"></i>Add to cart</a></span> </div>
+        </div>
+      </div>
+      
+      <div class="product-box-padding">
+        <div class="product-box-main">
+          <div class="product-box-img-part">
+            <img src="image/3.jpg" />
+            <div class="background-overlay"><a href="#" class="quick_view_btn">Quick View</a></div>
+          </div>
+          <div class="product-box-detail-part">
+            <div class="width_full text-center"><a class="product-box-title" href="#">Beautiful Silver Earri</a></div>
+            <h3 class="product-box-price">$39.00<span>$45.00</span></h3>
+            <span class="width_full text-center"><a href="#" class="product-box-cart-btn"><i class="fa fa-shopping-cart"></i>Add to cart</a></span> </div>
+        </div>
+      </div>
+      
+      <div class="product-box-padding">
+        <div class="product-box-main">
+          <div class="product-box-img-part">
+            <img src="image/4.jpg" />
+            <div class="background-overlay"><a href="#" class="quick_view_btn">Quick View</a></div>
+          </div>
+          <div class="product-box-detail-part">
+            <div class="width_full text-center"><a class="product-box-title" href="#">Beautiful Silver Earri</a></div>
+            <h3 class="product-box-price">$39.00<span>$45.00</span></h3>
+            <span class="width_full text-center"><a href="#" class="product-box-cart-btn"><i class="fa fa-shopping-cart"></i>Add to cart</a></span> </div>
+        </div>
+      </div>
+      
+      <div class="product-box-padding">
+        <div class="product-box-main">
+          <div class="product-box-img-part">
+            <img src="image/5.jpg" />
+            <div class="background-overlay"><a href="#" class="quick_view_btn">Quick View</a></div>
+          </div>
+          <div class="product-box-detail-part">
+            <div class="width_full text-center"><a class="product-box-title" href="#">Beautiful Silver Earri</a></div>
+            <h3 class="product-box-price">$39.00<span>$45.00</span></h3>
+            <span class="width_full text-center"><a href="#" class="product-box-cart-btn"><i class="fa fa-shopping-cart"></i>Add to cart</a></span> </div>
+        </div>
+      </div>      
+    </div>
+  </div>
+  
+  
+    </div>
+
+
+  </div>
+</section>
+<footer class="footer-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <h2 class="footer-my-account-heading">My Account</h2>
+        <ul class="footer-link">
+          <li><a href="#"><i class="fa fa-angle-right"></i>My Account</a></li>
+          <li><a href="#"><i class="fa fa-angle-right"></i>Order History</a></li>
+          <li><a href="#"><i class="fa fa-angle-right"></i>My Wishlist</a></li>
+          <li><a href="#"><i class="fa fa-angle-right"></i>Change Password</a></li>
+          <li><a href="#"><i class="fa fa-angle-right"></i>Create Account</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h2 class="footer-my-account-heading">Informations</h2>
+        <ul class="footer-link">
+          <li><a href="#"><i class="fa fa-angle-right"></i>Shipping Info</a></li>
+          <li><a href="#"><i class="fa fa-angle-right"></i>Privacy Policy</a></li>
+          <li><a href="#"><i class="fa fa-angle-right"></i>Conditions of Use</a></li>
+          <li><a href="#"><i class="fa fa-angle-right"></i>Site Map</a></li>
+          <li><a href="#"><i class="fa fa-angle-right"></i>Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h2 class="footer-my-account-heading">Customer Care</h2>
+        <ul class="footer-link">
+          <li><a href="#"><i class="fa fa-angle-right"></i>New Products</a></li>
+          <li><a href="#"><i class="fa fa-angle-right"></i>Featured Products</a></li>
+          <li><a href="#"><i class="fa fa-angle-right"></i>Specials</a></li>
+          <li><a href="#"><i class="fa fa-angle-right"></i>All Products</a></li>
+          <li><a href="#"><i class="fa fa-angle-right"></i>Brands</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h2 class="footer-my-account-heading">Newsletter</h2>
+        <div class="footer-newlatter">
+          <p>Join the Community to be Updated Community Firstly Newsletter</p>
+          <div class="block-content">
+            <div class="input-box">
+              <input type="email" class="form-control" id="email" placeholder="Enter your email address ...">
+              <button class="button" title="Subscribe" type="submit"></button>
+            </div>
+            <div class="width_full footer-social-icon"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cpoyright-footer">
+    <p>© JEWELRY 2015. All Rights Reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
