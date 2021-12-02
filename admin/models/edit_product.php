@@ -108,7 +108,7 @@ if($weight=="")
     $err[] = "weight is empty<br>";
 }
 
-if(!(empty($err)))
+if(!(empty($err))  && $flag = 0)
 {
     $_SESSION['err'] = $err;
 }
