@@ -54,7 +54,7 @@ else
     $flag = 0;
 }
 
-if(!(empty($err)))
+if(!(empty($err))  && $flag = 0)
 {
   $_SESSION['err'] = $err;
 }
